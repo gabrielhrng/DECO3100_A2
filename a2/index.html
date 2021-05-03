@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>deco3100a2</title>
+	<meta name="author" content="Gabriel Ng" />
+	<meta name="description" content="fullPage very simple demo." />
+	<meta name="keywords"  content="fullpage,jquery,demo,simple" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="src/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <style>
+
+        #section0{
+            background-image: url("Users/admin/Desktop/deco3100/a2/images/1.jpeg");
+        }
+        #section3{
+            background-image: url("Users/admin/Desktop/DECO3100/a2/images/israelout.png");
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <header>Growing Up on Hallowed Ground:</header>
+                <h1>Perspectives into Israel and Palestine</h1>
+        </div>
+    <div class="section" id="section2">
+            <article style="padding: 3rem">
+                <h1 style="text-align: left">Israel and Palestine's War for Independence</h1>
+                <br></br>
+                <p style="color: whitesmoke;">
+                    Upon its declaration of independence in 1947,the United Nations had recognised Israel as a democratic state and part of the international community. Ever since this historic event, the development of the nation in the 21st century has been met with hostility from neighbouring territories due to opposing political and religious views.
+                    <br></br>
+                    Following the fall of the Ottoman Empire in 1918, Great Britain liberated and took control of Palestine, the region including Jordan, Modern day Israel and Palestine. The declaration submitted by the British Foreign Secretary was approved by the League of Nations in 1922, in hopes of paving the road for an established Jewish Homeland in Palestine. 
+                    However, this entailed bringing under the current arab population of Palestine under Jewish rule, a notion that the Palestinians greatly opposed to. Clashing ideologically, and ethnically, the Arab palestinians were unwilling to relinquish control of their homeland to the Jewish population and over the 21st century, wars are being continuously fought over the division of borders, and the ownership of the capital city: Jerusalem. 
+                    <br></br>
+                    Jerusalem’s annexation has been a great point of contention between the Jews and Arab Muslims, with history that dates back to 2000 years, where both groups deemed the area holy. The city of Jerusalem contains multiple religious landmarks, including such as the Temple Mount, the holy sites al-Aqsa Mosque and more. 
+                    <br></br>
+                    Current efforts focused in achieving a unanimous solution exists in two options: the One-State or Two-State solution. The One-State solution, focuses on consolidating the states of Israel and Palestine together into a singular, secular, democratic state, where both Israeli Jews and Palestininan Arabs live as citizens with equal rights. The two-state solution is where Israelis and Palestinians live separately in two states; co-existing separately yet peacefully. This solution, allows Israel to retain a Jewish majority and the Palestinian state with a Muslim Arab majority. 
+                <p>
+                    
+            </article>
+    </div>
+
+        <div class="section" id="section3">
+            <article style="padding: 2rem; width: 30%;">
+                <div id='israelreligion'>
+                </div>  
+                
+
+  
+                    <p>
+                        Home to over 8 Million inhabitants and covering over 22km^2, Israel is the cultural capital of the Jews. Rapidly increasing population, the population of Israel is projected to reach 12.72 million inhabitants in 2050, and 18.06 million by 2099, more than double of what it is today.
+                        As of 2018, Israel's population is youthful, with 28.2% under 15 years of age. The second largest age group was 35-54 (22.9%). Life expectancy is among the highest in the world, with 85 years for women and 81 years for men.                   
+                    </p>
+                        <br></br>
+                <h1 style="text-align: left; color: orange;">Israel</h1>
+            </article>
+        </div>
+        
+        <div class="section" id="section4">
+            <article style="padding: 2rem; width: 30%;">
+                <div id='palesreligion'>
+                </div>  
+
+                    <p>
+                        Home to over 8 Million inhabitants and covering over 22km^2, Israel is the cultural capital of the Jews. Rapidly increasing population, the population of Israel is projected to reach 12.72 million inhabitants in 2050, and 18.06 million by 2099, more than double of what it is today.
+                        As of 2018, Israel's population is youthful, with 28.2% under 15 years of age. The second largest age group was 35-54 (22.9%). Life expectancy is among the highest in the world, with 85 years for women and 81 years for men.                   
+                    </p>
+                        <br></br>
+                <h1 style="text-align: left; color: orange;">Palestine</h1>
+            </article>
+        </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="src/fullpage.js"></script>
+    <script type="text/javascript" src="israelbar.js"></script>
+    <script type="text/javascript" src="palestinebar.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#f2f2f2', 'orange', '#ffffff', 'whitesmoke', '#ccddff']
+        });
+    </script>
+</body>
+</html>
