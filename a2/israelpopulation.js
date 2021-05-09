@@ -1,31 +1,44 @@
-function makeplot() {
-    Plotly.d3.csv("https://raw.githubusercontent.com/gabrielhrng/DECO3100_A2/main/a2/csv/israelpop.csv", 
-    function(data){ processData(data) } );
 
-    };
+const lineColors = {
+    green: "#44bb66",
+}
 
-    function processData(allRows) {
+Plotly.d3.csv("https://raw.githubusercontent.com/gabrielhrng/DECO3100_A2/main/a2/csv/israelpop.csv", 
+    function(data1){ processData1(data1) } );
 
-    console.log(allRows);
-    var x = [], y = [];
-
-    for (var i=0; i<allRows.length; i++) {
-        row = allRows[i];
-        x.push( row['label'] );
-        y.push( row['"Total Population"'] );
+    var traces = {
+        type: "scatter",
+        mode: "lines",
+        name: 'Israel Population',
+        x: unpack(rows, 'label'),
+        y: unpack(rows, 'Total Population'),
+        line: { color: lineColors.green }
     }
-    console.log( 'X',x, 'Y',y );
-    makePlotly( x, y );
-    }
+    
+function processData1(allRows) {
 
-    function makePlotly( x, y ){
-    var plotDiv = document.getElementById("israelpop");
-    var traces = [{
-        x: x, 
-        y: y
-    }];
+console.log(allRows);
+var x1= [], y1 = [];
 
-    Plotly.newPlot('israelpop', traces, 
-        {title: 'ISRAEL POPULATION'});
-    };
-    makeplot();
+for (var i=0; i<allRows.length; i++) {
+    row = allRows[i];
+    x1.push( row['label'] );
+    y1.push( row['Total Population'] );
+    
+    
+}
+makePlotly1( x1, y1 );
+
+}
+
+function makePlotly1( x1, y1 ){
+
+var traces = [{
+    x: x1, 
+    y: y1
+    
+}];
+
+Plotly.newPlot('israelpop', traces, 
+    {title: 'Population of Israel (1950-Now)'});
+};
