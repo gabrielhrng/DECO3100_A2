@@ -1,0 +1,21 @@
+JUSTIFICATION
+
+The topic of world conflict has always been a fascinating topic to research, especially how the culture and ideologies of countries affect the inhabitants who live there. An ongoing world conflict that has persisted in the modern age is Israel and Palestine’s battle claim for the proposed “Holy Land”, a conflict that dates back more than 2000 years ago.
+
+In analysing the child mortality data for both Israel and Palestine, the information could be understood and attain meaning if it were to be compared or matched against something. The Child Mortality rate is a measure of child deaths per 1000 of a population, for children under 5 ( UNICEF, 2021) and to grasp the demographic landscape of each country,the child mortality rates were compared with its respective populace. One observation could be that despite the child mortality rate going down, the death rate may be the same. This visually suggests a negative correlation, with both trend lines crossing against each other. (Inselberg and Dimsdale 1990)
+
+Other elements such as graph choice and font size mattered in aiding of telling the story. Larger font size allows for better retention of memory (Price, McElroy, & Martin, 2016) and mainly advantageous in highlighting key insights and important pieces of information. Hence the larger font text was reserved for key insights such as prominent demographic information.
+Graph choice was influenced by its appropriateness to visually display the data. Pie graphs were suitable to visualise data and compare sections to the whole (Craig, 2021) . Such data that was ideal to visualise in this style of graph was religion demographics. Line charts were ideal to display change over time, such graphs for displaying population change etc.
+
+
+REFERENCES
+
+Child Mortality - UNICEF DATA. (2021). Retrieved 8 May 2021, from https://data.unicef.org/topic/child-survival/under-five-mortality/
+
+Craig, W. (2021). How to Make Data Visualization Better with Gestalt Laws. Retrieved 9 May 2021, from https://www.webfx.com/blog/web-design/data-visualization-gestalt-laws/
+
+Inselberg, A., & Dimsdale, B. (1990). Parallel coordinates. A tool for visualizing multi-dimensional geometry. In Proceedings of the First IEEE conference on visualization: visualization’ 90. San Francisco, CA, USA, 23–26 Oct. 1990. (pp. 361–378). IEEE Comput. Soc. Press.
+
+Perkhofer, L., Walchshofer, C., & Hofer, P. (2020). Does design matter when visualizing Big Data? An empirical study to investigate the effect of visualization type and interaction use. Journal Of Management Control, 31(1-2), 55-95. doi: 10.1007/s00187-020-00294-0
+
+Price, J., McElroy, K., & Martin, N. J. (2016). The role of font size and font style in younger and older adults’ predicted and actual recall performance. Neuropsychology, Development, and Cognition. Section B, Aging, Neuropsychology and Cognition, 23(3), 366–388.
