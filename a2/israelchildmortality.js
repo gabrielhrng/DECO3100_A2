@@ -1,4 +1,4 @@
-function makeplot1() {
+function makeplot() {
   Plotly.d3.csv("https://raw.githubusercontent.com/gabrielhrng/DECO3100_A2/main/a2/csv/israelchildmortality.csv", 
   function(data){ processData(data) } );
 
@@ -15,11 +15,11 @@ function processData(allRows) {
    y.push( row['mortality'] );
  }
  console.log( 'X',x, 'Y',y );
- makePlotly1( x, y );
+ makePlotly( x, y );
 }
 
-function makePlotly1( x, y ){
- var plotDiv1 = document.getElementById("israelcm");
+function makePlotly( x, y ){
+//var plotDiv = document.getElementById("israelcm");
  var traces = [{
    x: x, 
    y: y
@@ -27,6 +27,6 @@ function makePlotly1( x, y ){
  
 
  Plotly.newPlot('israelcm', traces, 
-   {title: 'CHILD MORTALITY'});
+   {title: 'Child Mortality Rate (1950-Now)'});
 };
- makeplot1();
+ makeplot();
